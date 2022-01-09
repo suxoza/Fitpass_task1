@@ -4,4 +4,5 @@ requirements:
 
 hot to install:
     composer install
-    php artisan migrate --seed
+    touch database/database.sqlite
+    php8.0 artisan migrate --seed
